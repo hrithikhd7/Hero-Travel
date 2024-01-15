@@ -383,6 +383,239 @@ nav li {
   margin-top: 48px;
 }
 
+.deals {
+  text-align: center;
+  align-items: center;
+}
+
+.dealsh {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.dealsp {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.container {
+  background-image: url(Images/Group\ 39.png);
+  background-repeat: no-repeat;
+  margin: 48px auto;
+  width: 1170px;
+  height: 500px;
+  display: flex;
+}
+.container1 {
+  background-image: url(Images/Group\ 40.png);
+  background-repeat: no-repeat;
+  margin: 48px auto;
+  width: 1170px;
+  height: 500px;
+  display: flex;
+}
+.tickets {
+  width: 579px;
+  height: 389px;
+  border-radius: 16px;
+  backdrop-filter: blur(2.5px);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  text-align: left;
+  margin: 56px 55px 56px 535px;
+}
+.tickets1 {
+  width: 579px;
+  height: 389px;
+  border-radius: 16px;
+  backdrop-filter: blur(2.5px);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  text-align: left;
+  margin: 56px 535px 56px 55px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.iconimg {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+.iconp {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 24px;
+}
+
+.destour {
+  color: #131318;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+
+.desp {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: 452px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.despr {
+  color: #ff5400;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  margin-top: 16px;
+  margin-bottom: 26px;
+}
+
+.desbutton {
+  width: 150px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  border: none;
+}
+
+.description {
+  margin-left: 50px;
+}
+
+.package {
+  width: 210px;
+  height: 52px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  background: #ff5400;
+  border: none;
+  border-radius: 8px;
+}
+
+.news {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.newsletter {
+  width: 474px;
+  height: 422px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newst {
+  color: #131318;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.newsp {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inpn {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+  margin-bottom: 16px;
+}
+.sub {
+  width: 393px;
+  height: 52px;
+  color: #fff;
+  border-radius: 8px;
+  background: #ff5400;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  border: none;
+}
+
+.sticker {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+}
+
+.travelp {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  transform: rotate(-1.628deg);
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.travelh {
+  color: #fff;
+  transform: rotate(-1.628deg);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  margin: 0px;
+  text-align: center;
+  margin-top: 10px;
+}
+.rnewsletter {
+  position: relative;
+}
+
+.sticker {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+}
+
 /* RESPONSIVE SIDE */
 @media screen and (max-width: 576px) {
   header ul {
@@ -556,5 +789,110 @@ nav li {
   .chooseboxicon {
     width: 48px;
     height: 48px;
+  }
+
+  .deals {
+    margin: 24px auto;
+  }
+  .dealsh {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .dealsp {
+    width: 309px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .container,
+  .container1 {
+    width: 335px;
+    height: 500px;
+    border-radius: 16px;
+    background-position: 50% 50%;
+  }
+
+  .tickets,
+  .tickets1 {
+    margin: 0px;
+    width: 303px;
+    height: 297px;
+    margin: 187px 16px 16px 16px;
+  }
+  .iconp {
+    font-size: 16px;
+  }
+  .destour {
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  .icons {
+    margin: 0px;
+  }
+
+  .description {
+    margin: 0px;
+    margin-left: 25px;
+  }
+  .desp {
+    width: 254px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+  }
+
+  .despr {
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+  }
+
+  .desbutton {
+    margin-top: 16px;
+    width: 130px;
+    height: 40px;
+  }
+
+  .news {
+    flex-direction: column;
+  }
+
+  .newsletter {
+    width: 335px;
+    height: 353px;
+    padding-bottom: 12px;
+  }
+
+  .inpn {
+    width: 288px;
+    height: 52px;
+  }
+
+  .sub {
+    width: 288px;
+    height: 52px;
+  }
+
+  .newsp {
+    width: 270px;
+    margin-top: 0px;
+  }
+  .rpicture {
+    width: 335px;
+    height: 300px;
+  }
+
+  .sticker {
+    top: 60%;
+    left: 35%;
+    width: 214.023px;
+    height: 79.268px;
+  }
+
+  .travelh {
+    font-size: 21.138px;
+  }
+  .travelp {
+    font-size: 15.854px;
   }
 }
