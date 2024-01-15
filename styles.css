@@ -1,0 +1,22 @@
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+
+.navdiv {
+  display: flex;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
