@@ -199,13 +199,13 @@ nav li {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  margin-bottom: 48px;
 }
 
 .destinationimagecontainer {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin: 48px auto;
   align-items: center;
 }
 
@@ -214,8 +214,88 @@ nav li {
 .des3 {
   display: flex;
   gap: 24px;
+  position: relative;
 }
 
+.Maldives {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  top: 35%;
+  left: 19%;
+}
+.Indonesia {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  top: 35%;
+  left: 70%;
+}
+
+.Sri {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  left: 10%;
+  top: 36%;
+}
+
+.North {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  left: 45%;
+  top: 36%;
+}
+.Kashmir {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  top: 36%;
+  left: 84%;
+}
+.Bangladesh {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  top: 36%;
+  left: 13%;
+}
+.Bandarban {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  top: 36%;
+  left: 65%;
+}
 .destinationimagecontainer > img {
   border-radius: 16px;
   background: linear-gradient(
