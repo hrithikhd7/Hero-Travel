@@ -4,11 +4,14 @@ body {
 
 nav {
   display: flex;
-  align-items: center;
+
   justify-content: space-between;
-  margin: 0px 200px;
+  margin: 35px 135px;
 }
 
+.navbar {
+  display: none;
+}
 .navdiv {
   display: flex;
 }
@@ -18,5 +21,167 @@ nav > ul {
   align-items: center;
 }
 nav li {
+  color: var(--Dark-02, #424247);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
   list-style: none;
-  margin-right: 50px;
+  margin-right: 44px;
+}
+.group400 {
+  margin-top: 33px;
+  margin-right: 16.63px;
+  width: 48px;
+  height: 56.008px;
+}
+
+.tophero {
+  color: #131318;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.span {
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.lihome {
+  color: #ff5400;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bannercontent {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.bannertitle {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  margin-top: 106px;
+  margin-bottom: 0px;
+}
+
+.bannerp {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  width: 676px;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+
+.inputbutton {
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  margin-top: 48px;
+  margin-bottom: 0px;
+}
+
+.inp {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(19, 19, 24, 0.5);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+
+.buttonfind {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #ff5400;
+  width: 174px;
+  height: 52px;
+  border: none;
+}
+
+/* RESPONSIVE SIDE */
+@media screen and (max-width: 576px) {
+  header ul {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+    background: none;
+    border: none;
+  }
+
+  nav {
+    margin: 0px 20px;
+  }
+
+  .bannercontent {
+    width: 335px;
+    height: 483px;
+    background-position: 50% 50%;
+  }
+  .inputbutton {
+    flex-direction: column;
+  }
+  .bannertitle {
+    margin-top: 32px;
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .bannerp {
+    width: 304px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+
+  .inputbutton {
+    width: 287px;
+    padding: 16px;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px;
+  }
+  .inp, .buttonfind{
+    width: 255px;
+    height: 52px;
+  }
+ 
