@@ -616,6 +616,146 @@ nav li {
   left: 50%;
 }
 
+.usreview {
+  text-align: center;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.useh {
+  color: #131318;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.usep {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.user-review {
+  width: 473px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px solid #f826a8;
+  background-color: rgb(247, 240, 241);
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 5px;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.userimg {
+  width: 84px;
+  height: 84px;
+  border-radius: 6px;
+}
+
+.reviewrow1 {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+.reviewrow2 {
+  margin-top: 0px;
+  display: flex;
+  gap: 40px;
+}
+
+.reviewer {
+  color: #131318;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.userdescription {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 16px;
+}
+
+.fcontent {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.ftexts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ftitle {
+  display: flex;
+  align-items: center;
+  margin-top: 110px;
+  gap: 16px;
+}
+
+.flogos {
+  display: flex;
+  gap: 40px;
+  margin-top: 32px;
+}
+
+.footer-content hr {
+  width: 872px;
+  border-color: rgba(19, 19, 24, 0.1);
+  margin-top: 50px;
+}
+
+.footer-content p {
+  width: 769px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #5a5a5d;
+}
+
+.rights {
+  margin-top: 40px;
+  margin-bottom: 110px;
+}
+
+.rights p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  color: #131318;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-title img {
+  width: 40px;
+  height: 46.673px;
+}
+
+.footer-title span {
+  color: #ff5400;
+  font-size: 32px;
+  font-weight: 800;
+}
 /* RESPONSIVE SIDE */
 @media screen and (max-width: 576px) {
   header ul {
@@ -676,20 +816,29 @@ nav li {
     flex-direction: column;
     margin: 24px;
     gap: 24px;
+    width: 300px;
   }
 
   .sectionp {
-    width: 335px;
+    width: 300px;
   }
   .sectionp li {
-    width: 335px;
+    width: 300px;
     margin-left: 0px;
   }
 
   .sectionh {
     font-size: 20px;
+    width: 335px;
   }
-
+  .sectiontext {
+    width: 335px;
+    align-items: center;
+    text-align: center;
+  }
+  .popularcontainer {
+    width: 335px;
+  }
   .readmore {
     width: 174px;
     height: 52px;
@@ -894,5 +1043,60 @@ nav li {
   }
   .travelp {
     font-size: 15.854px;
+  }
+
+  .reviewrow1 {
+    flex-direction: column;
+  }
+
+  .reviewrow2 {
+    flex-direction: column;
+  }
+
+  .user-review {
+    width: 335px;
+  }
+
+  .fcontent {
+    flex-direction: column;
+    width: 370px;
+  }
+
+  .ftitle img {
+    width: 28.724px;
+    height: 33.516px;
+    flex-shrink: 0;
+  }
+
+  .ftitle h1 {
+    font-size: 21.543px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  .ftitle span {
+    font-size: 21.543px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  .ftexts p {
+    width: 287px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .fcontent hr {
+    width: 335px;
+  }
+  .fcontent {
+    width: 374px;
+  }
+
+  .rights p {
+    font-size: 14px;
+    width: 345px;
   }
 }
