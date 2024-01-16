@@ -2,6 +2,10 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+.body {
+  padding: 0;
+  margin: 0;
+}
 nav {
   display: flex;
 
@@ -402,6 +406,8 @@ nav li {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  max-width: 643px;
+  margin: auto;
 }
 
 .container {
@@ -821,6 +827,7 @@ nav li {
 
   .sectionp {
     width: 300px;
+    margin-left: 30px;
   }
   .sectionp li {
     width: 300px;
@@ -830,11 +837,10 @@ nav li {
   .sectionh {
     font-size: 20px;
     width: 335px;
+    text-align: center;
   }
   .sectiontext {
     width: 335px;
-    align-items: center;
-    text-align: center;
   }
   .popularcontainer {
     width: 335px;
@@ -847,6 +853,7 @@ nav li {
   .mountain {
     width: 335px;
     height: 342px;
+    align-items: center;
   }
 
   .destinationh {
@@ -1086,10 +1093,12 @@ nav li {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    text-align: center;
   }
 
   .fcontent hr {
-    width: 335px;
+    width: 400px;
+    margin-top: 50px;
   }
   .fcontent {
     width: 374px;
@@ -1098,5 +1107,6 @@ nav li {
   .rights p {
     font-size: 14px;
     width: 345px;
+    text-align: center;
   }
 }
