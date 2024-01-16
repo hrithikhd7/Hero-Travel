@@ -543,6 +543,12 @@ nav li {
   align-items: center;
 }
 
+.newsletter hr {
+  border-color: rgba(19, 19, 24, 0.10);
+  width: 393px;
+
+}
+
 .newst {
   color: #131318;
   font-size: 24px;
@@ -724,13 +730,13 @@ nav li {
   margin-top: 32px;
 }
 
-.footer-content hr {
+.fcontent hr {
   width: 872px;
   border-color: rgba(19, 19, 24, 0.1);
   margin-top: 50px;
 }
 
-.footer-content p {
+.fcontent p {
   width: 769px;
   font-size: 16px;
   font-weight: 400;
@@ -752,12 +758,12 @@ nav li {
   font-family: "Inter", sans-serif;
 }
 
-.footer-title img {
+.ftitle img {
   width: 40px;
   height: 46.673px;
 }
 
-.footer-title span {
+.ftitle span {
   color: #ff5400;
   font-size: 32px;
   font-weight: 800;
@@ -1097,13 +1103,16 @@ nav li {
   }
 
   .fcontent hr {
-    width: 400px;
-    margin-top: 50px;
+    border-color:rgba(19, 19, 24, 0.10);
+    width: 335px;
   }
   .fcontent {
-    width: 374px;
+    width: auto;
   }
-
+  .newsletter hr {
+   width: 288px;
+   border-color:rgba(19, 19, 24, 0.10);
+  }
   .rights p {
     font-size: 14px;
     width: 345px;
